@@ -1,6 +1,6 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from datetime import datetime, timedelta
+from datetime import timedelta
 from src.config import BRONZE_PATH, SILVER_PATH, URL
 from src.extract import extract
 from src.load import load
