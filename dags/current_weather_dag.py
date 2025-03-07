@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import timedelta
