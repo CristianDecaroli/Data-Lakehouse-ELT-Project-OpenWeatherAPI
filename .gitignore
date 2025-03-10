@@ -1,5 +1,7 @@
-datalake/*
-logs/*
+datalake/bronze
+datalake/silver
+logs/scheduler
+logs/dag*
 dags/__pycache__
 scripts/__pycache__
 tests/__pycache__
