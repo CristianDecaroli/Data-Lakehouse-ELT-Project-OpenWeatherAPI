@@ -24,9 +24,11 @@ Data-Lakehouse-ELT-Project-OpenWeatherAPI/
 │
 ├── datalake/            # Directorio donde se guarda la data extraída en formato .parquet, particionada por hora
 │
+├── demo_images/         # Directorio dodne se guardan imágenes que demuestran el correcto funcionamiento del proyecto
 ├── .env                 # Variable de entorno para que Airflow instale las dependencias dentro de Docker Compose
 ├── .gitignore           # Archivo de Git para ignorar archivos y/o directorios no deseados
 ├── pipeline.conf        # Archivo de configuración que contiene datos de API y rutas de directorios
+├── README.md            # Información y documentación del proyecto
 ```
 ## Instrucciones para Clonar y Ejecutar el Proyecto
 
