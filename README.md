@@ -1,6 +1,6 @@
 # Proyecto ELT para Data Lakehouse - OpenWeatherAPI
 
-Este proyecto implementa un pipeline de datos climáticos utilizando Apache Airflow. Extrae datos de una API de clima, los carga de manera incremental en un Datalake y los transforma para su posterior análisis. El proyecto está desarrollado en Python y utiliza varias librerías como requests, pandas y deltalake para el procesamiento de datos.
+Este proyecto implementa un pipeline de datos climáticos de la ciudad de Córdoba - Argentina utilizando Apache Airflow. Extrae datos de una API de clima, los carga de manera incremental en un Datalake y los transforma para su posterior análisis. El proyecto está desarrollado en Python y utiliza varias librerías como requests, pandas y deltalake para el procesamiento y la manipulación de datos.
 
 ## Estructura del Proyecto
 
